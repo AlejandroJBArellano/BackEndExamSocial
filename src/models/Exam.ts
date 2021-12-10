@@ -18,3 +18,5 @@ const ExamSchema = new Schema({
     versionKey: false,
     timestamps: true
 })
+
+export default model("Exam", ExamSchema)

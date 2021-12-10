@@ -21,13 +21,18 @@
   },
   "homepage": "https://github.com/AlejandroJBArellano/BackEndExamSocial#readme",
   "dependencies": {
+    "@types/passport": "^1.0.7",
+    "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^6.1.0",
     "morgan": "^1.10.0",
+    "passport": "^0.5.0",
+    "passport-google-oauth20": "^2.0.0",
     "ts-node": "^10.4.0"
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
-    "@types/morgan": "^1.9.3"
+    "@types/morgan": "^1.9.3",
+    "@types/passport-google-oauth20": "^2.0.11"
   }
 }
