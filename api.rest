@@ -2,5 +2,15 @@ POST http://localhost:3000/exam HTTP/1.1
 content-type: application/json
 
 {
-    
+    "title": "Tìtulo de prueba",
+    "questions": [{
+        "question": "¿Quién es la mamá del topo?",
+        "answers": [{
+            "answer": "yo",
+            "correct": false
+        }]
+    }]
 }
+
+###
+GET http://localhost:3000/exam HTTP/1.1
